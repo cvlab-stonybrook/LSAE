@@ -1,11 +1,11 @@
 ## Lung Swapping Auotencoder: Learning a Disentangled Structure-texture Representation of Chest Radiographs
 
-*stay tuned. More to upload*
+**stay tuned. More to upload**
 
 This is the official code for Lung Swapping Autoencoder published on MICCAI 2021
 
 <p align="center">
-  <img src="https://github.com/cvlab-stonybrook/LSAE/blob/main/assets/final_pipeline.png" width="300">
+  <img src="https://github.com/cvlab-stonybrook/LSAE/blob/main/assets/final_pipeline.png" width="600">
 </p>
 
 ### Preparation
