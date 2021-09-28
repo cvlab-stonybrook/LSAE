@@ -5,7 +5,7 @@
 This is the official code for Lung Swapping Autoencoder published on MICCAI 2021
 
 <p align="center">
-  <img src="https://github.com/cvlab-stonybrook/LSAE/tree/main/assets/final_teaser.pdf" width="300">
+  <img src="https://github.com/cvlab-stonybrook/LSAE/blob/main/assets/final_pipeline.png" width="300">
 </p>
 
 ### Preparation
