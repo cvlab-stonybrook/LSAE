@@ -23,6 +23,11 @@ The command is following. Please fill in the blanks with your own paths.
 bash scripts/train_lsae.sh
 ```
 
+### Qualitative Results for Lung Swapping
+<p align="center">
+  <img src="https://github.com/cvlab-stonybrook/LSAE/blob/main/assets/final_teaser.png" width="600">
+</p>
+
 ### Full Labeled Data Finetuning on ChestX-ray14
 The command is following. Please fill in the blanks with your own paths.
 
