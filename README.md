@@ -9,8 +9,6 @@ This is the PyTorch implementation of [Lung Swapping Autoencoder](https://link.s
 </p>
 
 ## Preparation
-### Packages
-Install packages
 ### CXRs and Masks of ChestX-ray14
 You can download our pre-processed data through the following links. Please remember to modify the data path in the command lines correspondingly.
 - [Histogram Equalized ChestX-ray14 (256 x 256)](https://drive.google.com/file/d/1Mf0XI33sdhtcuvBjohe1kTmlX67-uVvz/view?usp=sharing).
@@ -75,3 +73,10 @@ CUDA_VISIBLE_DEVICES=0 python train_texencoder_cxr14.py \
   organization={Springer}
 }
 ```
+
+## Acknowledgement
+Our code is heavily based on the following open-sourced repositories. We appreciate their generous releases.
+- [Swapping Autoencoder](https://github.com/rosinality/swapping-autoencoder-pytorch) by [rosinality](https://github.com/rosinality)
+- [StyleGAN2](https://github.com/rosinality/stylegan2-pytorch) by [rosinality](https://github.com/rosinality)
+- [Contrastive Unpaired Translation (CUT)](https://github.com/taesungp/contrastive-unpaired-translation) by [taesungp](https://github.com/taesungp)
+- [WarpAffine2GridSample](https://github.com/wuneng/WarpAffine2GridSample) by [wuneng](https://github.com/wuneng)
