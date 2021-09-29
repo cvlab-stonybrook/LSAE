@@ -1,1 +1,0 @@
-CUDA_VISIBLE_DEVICES=2 python train_texencoder_cxr14.py --path /home/leizhou/covid_proj/data/chestxray8/images_hiseq256 --batch 96 --iter 35000 --lr 0.01 --lr_steps 26000 30000 --trlist /home/leizhou/covid_proj/data/chestxray8/trainval_list.txt --tslist /home/leizhou/covid_proj/data/chestxray8/test_list.txt --enc_ckpt pretrained_lsae_texencoder.pt --wandb

@@ -1,1 +1,0 @@
-CUDA_VISIBLE_DEVICES=2,3 python -m torch.distributed.launch --nproc_per_node=2 --master_port=8898 train_lsae.py --size 256 --batch 8 --lr 0.001 --trlist ~/covid_proj/data/chestxray8/trainval_list.txt --tslist ~/covid_proj/data/chestxray8/test_list.txt ~/covid_proj/data/chestxray8/images_hiseq256 ~/covid_proj/lung_segmentation/cxr14_mask --wandb --proj_name lsae
