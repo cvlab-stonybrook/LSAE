@@ -1,6 +1,5 @@
 # Lung Swapping Auotencoder: Learning a Disentangled Structure-texture Representation of Chest Radiographs
 
-*Stay tuned. Still updating*
 
 This is the PyTorch implementation of [Lung Swapping Autoencoder](https://link.springer.com/chapter/10.1007%2F978-3-030-87234-2_33) published on MICCAI 2021.
 
